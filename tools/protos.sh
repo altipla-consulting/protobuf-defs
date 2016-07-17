@@ -2,4 +2,5 @@
 
 set -eu
 
-protoc ./ptypes/date.proto --go_out=$GOPATH/src
+cd src/altipla/protobuf/
+protoc date.proto --go_out=$GOPATH/src
