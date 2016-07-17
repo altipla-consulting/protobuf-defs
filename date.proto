@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+package altipla.protobuf;
+
+message Date {
+  int64 day = 1;
+  int64 month = 2;  // 1 = January, 2 = February, etc..
+  int64 year = 3;
+}
