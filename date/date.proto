@@ -3,7 +3,7 @@ syntax = "proto3";
 
 package altipla.protobuf;
 
-option go_package = "github.com/altipla-consulting/protobuf-defs/ptypes";
+option go_package = "github.com/altipla-consulting/protobuf-defs/date";
 
 message Date {
   int32 day = 1;

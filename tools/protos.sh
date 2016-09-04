@@ -2,5 +2,4 @@
 
 set -eu
 
-cd src/altipla/protobuf/
-protoc date.proto --go_out=$GOPATH/src
+protoc date/date.proto --go_out=$GOPATH/src
