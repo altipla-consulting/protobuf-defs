@@ -3,7 +3,7 @@ syntax = "proto3";
 
 package altipla.api;
 
-import "github.com/aaltipla-consulting/protobuf-defs/api/acl/acl.proto";
+import "github.com/altipla-consulting/protobuf-defs/api/acl/acl.proto";
 import "google/protobuf/descriptor.proto";
 
 extend google.protobuf.MethodOptions {
