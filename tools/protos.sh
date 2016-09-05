@@ -2,4 +2,10 @@
 
 set -eu
 
-protoc date/date.proto --go_out=$GOPATH/src
+function build {
+  protoc -I $GOPATH/src $(pwd)/$1 --go_out=$GOPATH/src
+}
+
+build api/acl/acl.proto
+build api/annotations/annotations.proto
+build date/date.proto

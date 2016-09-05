@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+package altipla.protobuf;
+
+message ACL {
+  string module = 1;
+  string perm = 2;
+}
