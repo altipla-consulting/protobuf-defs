@@ -9,3 +9,4 @@ function build {
 build api/acl/acl.proto
 build api/annotations/annotations.proto
 build date/date.proto
+build project/project.proto

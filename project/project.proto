@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+package altipla.protobuf;
+
+option go_package = "github.com/altipla-consulting/protobuf-defs/project";
+
+message ProjectSelector {
+  string project = 1;
+}
